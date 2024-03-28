@@ -1,0 +1,1227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+  <!--Navbar -->
+  <nav class="navbar navbar-expand-lg" id="nav1">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="/assets/logo.svg" alt="logo brand">       
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Browse
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Landings
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Pages
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Accounts
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+        <!--NavBar dx-->
+        <div class="d-flex" id="icone">
+          <div class="circle position-relative">
+            <i class="bi bi-bell"></i>
+            <span class="position-absolute translate-middle p-1 blue rounded-circle"></span>
+          </div>
+
+          <a class="dropdown-toggle vs" href="#"  data-bs-toggle="dropdown" aria-expanded="false">
+            <div class="circle position-relative">
+              <img src="assets/avatar-1.jpg" alt="immagine probilo" id="imgProfilo">
+              <span class="position-absolute translate-middle p-1 green rounded-circle"></span>
+            </div>
+          </a>
+          <ul class="dropdown-menu profilo">
+            <div class="d-flex">
+              <div class="circle position-relative">
+                <img src="assets/avatar-1.jpg" alt="immagine probilo" id="imgProfilo">
+                <span class="position-absolute translate-middle p-1 red rounded-circle"></span>
+              </div>
+              <div>
+                <Strong>Annette Black</Strong>
+                <p>annette@geeksui.com </p>
+              </div>
+            </div>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#"><i class="bi bi-person"></i> Profile</a></li>
+            <li><a class="dropdown-item" href="#"><i class="bi bi-star"></i> Subscription</a></li>
+            <li><a class="dropdown-item" href="#"><i class="bi bi-gear"></i> Setting</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#"><i class="bi bi-escape"></i> Sign Out</a></li>
+          </ul>
+      </div>  
+    </div>
+  </nav>
+
+
+  <!--Hero-->
+
+  <div class="p-0 mb-4 hero ">
+    
+    <!--Parte Sx-->
+    <div id="contenitore">
+      <div class="row">
+        <div class="mb-4 col-12 col-md-7">
+          <h2 class="ms-4 ms-md-0 mt-5">Welcome Web Students!</h2>
+          <p class="ms-4 ms-md-0" style="max-width: 350px;">Hand-picked Instructor ad expertly crafted courses, desiged for the modern students and entrepreneur.</p>
+          <button class="bottone green1 ms-4 ms-md-0">Browse Courses</button>
+          <button class="bottone">Are You Instructor?</button>
+        </div>
+
+        <!--Parte Dx-->
+        <div class="col-12 col-md-5">
+          <img src="/assets/hero-img.png" alt="Immagine sezione principale" id="imgHero">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Sub-Hero section-->
+  <div class="container">
+    <div class="row sub-hero">
+      <div class="col-12 col-md-4 d-flex ">
+        <span class="circle coloreB">
+          <i class="bi bi-camera-video"></i>
+        </span>
+        <div class="sub-hero-font">
+          <strong>30,000 online courses</strong>
+          <p>Enjoy a variety of fresh topics</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 d-flex">
+        <span class="circle coloreB">
+          <i class="bi bi-people"></i>
+        </span>
+        <div class="sub-hero-font">
+          <strong>Expert instruction</strong>
+          <p>Find the right instructor for you</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 d-flex ">
+        <span class="circle coloreB">
+          <i class="bi bi-clock"></i>
+        </span>
+        <div class="sub-hero-font">
+          <strong>Lifetime access</strong>
+          <p>Learn on your schedule</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Main Section-->
+  <main>
+
+    <!--Carosello di card "Recommended to you"-->
+    <h5>Recommended to you</h5>
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+
+            <!--1 CARD-->     
+            <div class="col-6 col-md-3">
+              <div class="card">
+                <img src="assets/course-graphql.jpg" class="card-img-top" alt="img graph">
+                <div class="card-body d-flex flex-column justify-content-center pb-0" >
+                  <p class="card-text" style="font-weight: 600;">GraphQL: introduction to graphQL for beginners</p>
+                  <div class="info">
+                    <i class="bi bi-clock"></i>  
+                    2h 40m
+                    <i class="bi bi-bar-chart-fill" style="color: #7550fe;"></i>  
+                    Advance
+                  </div>
+                  <div class="info">
+                    <span class="gold">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      <i class="bi bi-star"></i>
+                      <i class="bi bi-star"></i>
+                      2.5
+                    </span> 
+                    (1,500)
+                  </div>
+                  <div class="info">
+                    <b>$500  </b><s style="font-size: 12px;">$600</s>
+                  </div>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-around align-items-baseline info m-0 ">
+                  <div class="d-flex align-items-baseline">
+                    <div class="circle1">
+                      <img src="assets/avatar-5.jpg" alt="img profilo" class="imgProfilo1"> 
+                    </div>
+                    <p>Brooklyn Simmons</p> 
+                  </div>
+                  <i class="bi bi-bookmark"></i>
+                </div>
+              </div>
+            </div>
+
+            <!--2 CARD--> 
+            <div class="col-6 col-md-3">
+              <div class="card">
+                <img src="assets/course-javascript.jpg" class="card-img-top" alt="img graph">
+                <div class="card-body d-flex flex-column justify-content-center pb-0" >
+                  <p class="card-text" style="font-weight: 600;">A Complete Beginner's Guide to JavaScript</p>
+                  <div class="info">
+                    <i class="bi bi-clock"></i>  
+                    4h 10m
+                    <i class="bi bi-bar-chart-fill" style="color: #7550fe"></i>  
+                    Advance
+                  </div>
+                  <div class="info">
+                    <span class="gold">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      <i class="bi bi-star"></i>
+                      3.5
+                    </span> 
+                    (7,500)
+                  </div>
+                  <div class="info">
+                    <b>$700  </b><s style="font-size: 12px;">$850</s>
+                  </div>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-around align-items-baseline info m-0 ">
+                  <div class="d-flex align-items-baseline">
+                    <div class="circle1">
+                      <img src="assets/avatar-1.jpg" alt="img profilo" class="imgProfilo1"> 
+                    </div>
+                    <p>Jenny Wilson</p> 
+                  </div>
+                  <i class="bi bi-bookmark"></i>
+                </div>
+              </div>
+            </div>
+
+            <!--3 CARD--> 
+            <div class="col-6 col-md-3">
+              <div class="card">
+                <img src="assets/course-node.jpg" class="card-img-top" alt="img graph">
+                <div class="card-body d-flex flex-column justify-content-center pb-0" >
+                  <p class="card-text" style="font-weight: 600;">Beginning Node.js, Express & MongoDB Development</p>
+                  <div class="info">
+                    <i class="bi bi-clock"></i>  
+                    2h 00m
+                    <i class="bi bi-bar-chart-fill" style="color: #7550fe"></i>  
+                    Intermediate
+                  </div>
+                  <div class="info">
+                    <span class="gold">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star"></i>
+                      4.0
+                    </span> 
+                    (15,700)
+                  </div>
+                  <div class="info">
+                    <b>$800  </b><s style="font-size: 12px;">$950</s>
+                  </div>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-around align-items-baseline info m-0 ">
+                  <div class="d-flex align-items-baseline">
+                    <div class="circle1">
+                      <img src="assets/avatar-3.jpg" alt="img profilo" class="imgProfilo1"> 
+                    </div>
+                    <p>Sina Ray</p> 
+                  </div>
+                  <i class="bi bi-bookmark"></i>
+                </div>
+              </div>
+            </div>
+
+            <!--4 CARD--> 
+            <div class="col-6 col-md-3">
+              <div class="card">
+                <img src="assets/course-laravel.jpg" class="card-img-top" alt="img graph">
+                <div class="card-body d-flex flex-column justify-content-center pb-0" >
+                  <p class="card-text" style="font-weight: 600;">Laravel: The Ultimate Beginner's Guide to Learn</p>
+                  <div class="info">
+                    <i class="bi bi-clock"></i>  
+                    1h 00m
+                    <i class="bi bi-bar-chart-fill" style="color: #7550fe"></i>  
+                    Beginner
+                  </div>
+                  <div class="info">
+                    <span class="gold">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      4.5
+                    </span> 
+                    (2,500)
+                  </div>
+                  <div class="info">
+                    <b>$170  </b><s style="font-size: 12px;">$220</s>
+                  </div>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-around align-items-baseline info m-0 ">
+                  <div class="d-flex align-items-baseline">
+                    <div class="circle1">
+                      <img src="assets/avatar-7.jpg" alt="img profilo" class="imgProfilo1"> 
+                    </div>
+                    <p>Sobo Rikhan</p> 
+                  </div>
+                  <i class="bi bi-bookmark"></i>
+                </div>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row">
+
+            <!--1 CARD-->     
+            <div class="col-6 col-md-3">
+              <div class="card">
+                <img src="assets/course-graphql.jpg" class="card-img-top" alt="img graph">
+                <div class="card-body d-flex flex-column justify-content-center pb-0" >
+                  <p class="card-text" style="font-weight: 600;">GraphQL: introduction to graphQL for beginners</p>
+                  <div class="info">
+                    <i class="bi bi-clock"></i>  
+                    2h 40m
+                    <i class="bi bi-bar-chart-fill" style="color: #7550fe;"></i>  
+                    Advance
+                  </div>
+                  <div class="info">
+                    <span class="gold">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      <i class="bi bi-star"></i>
+                      <i class="bi bi-star"></i>
+                      2.5
+                    </span> 
+                    (1,500)
+                  </div>
+                  <div class="info">
+                    <b>$500  </b><s style="font-size: 12px;">$600</s>
+                  </div>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-around align-items-baseline info m-0 ">
+                  <div class="d-flex align-items-baseline">
+                    <div class="circle1">
+                      <img src="assets/avatar-5.jpg" alt="img profilo" class="imgProfilo1"> 
+                    </div>
+                    <p>Brooklyn Simmons</p> 
+                  </div>
+                  <i class="bi bi-bookmark"></i>
+                </div>
+              </div>
+            </div>
+  
+            <!--2 CARD--> 
+            <div class="col-6 col-md-3">
+              <div class="card">
+                <img src="assets/course-javascript.jpg" class="card-img-top" alt="img graph">
+                <div class="card-body d-flex flex-column justify-content-center pb-0" >
+                  <p class="card-text" style="font-weight: 600;">A Complete Beginner's Guide to JavaScript</p>
+                  <div class="info">
+                    <i class="bi bi-clock"></i>  
+                    4h 10m
+                    <i class="bi bi-bar-chart-fill" style="color: #7550fe"></i>  
+                    Advance
+                  </div>
+                  <div class="info">
+                    <span class="gold">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      <i class="bi bi-star"></i>
+                      3.5
+                    </span> 
+                    (7,500)
+                  </div>
+                  <div class="info">
+                    <b>$700  </b><s style="font-size: 12px;">$850</s>
+                  </div>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-around align-items-baseline info m-0 ">
+                  <div class="d-flex align-items-baseline">
+                    <div class="circle1">
+                      <img src="assets/avatar-1.jpg" alt="img profilo" class="imgProfilo1"> 
+                    </div>
+                    <p>Jenny Wilson</p> 
+                  </div>
+                  <i class="bi bi-bookmark"></i>
+                </div>
+              </div>
+            </div>
+  
+            <!--3 CARD--> 
+            <div class="col-6 col-md-3">
+              <div class="card">
+                <img src="assets/course-node.jpg" class="card-img-top" alt="img graph">
+                <div class="card-body d-flex flex-column justify-content-center pb-0" >
+                  <p class="card-text" style="font-weight: 600;">Beginning Node.js, Express & MongoDB Development</p>
+                  <div class="info">
+                    <i class="bi bi-clock"></i>  
+                    2h 00m
+                    <i class="bi bi-bar-chart-fill" style="color: #7550fe"></i>  
+                    Intermediate
+                  </div>
+                  <div class="info">
+                    <span class="gold">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star"></i>
+                      4.0
+                    </span> 
+                    (15,700)
+                  </div>
+                  <div class="info">
+                    <b>$800  </b><s style="font-size: 12px;">$950</s>
+                  </div>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-around align-items-baseline info m-0 ">
+                  <div class="d-flex align-items-baseline">
+                    <div class="circle1">
+                      <img src="assets/avatar-3.jpg" alt="img profilo" class="imgProfilo1"> 
+                    </div>
+                    <p>Sina Ray</p> 
+                  </div>
+                  <i class="bi bi-bookmark"></i>
+                </div>
+              </div>
+            </div>
+  
+            <!--4 CARD--> 
+            <div class="col-6 col-md-3">
+              <div class="card">
+                <img src="assets/course-laravel.jpg" class="card-img-top" alt="img graph">
+                <div class="card-body d-flex flex-column justify-content-center pb-0" >
+                  <p class="card-text" style="font-weight: 600;">Laravel: The Ultimate Beginner's Guide to Learn</p>
+                  <div class="info">
+                    <i class="bi bi-clock"></i>  
+                    1h 00m
+                    <i class="bi bi-bar-chart-fill" style="color: #7550fe"></i>  
+                    Beginner
+                  </div>
+                  <div class="info">
+                    <span class="gold">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      4.5
+                    </span> 
+                    (2,500)
+                  </div>
+                  <div class="info">
+                    <b>$170  </b><s style="font-size: 12px;">$220</s>
+                  </div>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-around align-items-baseline info m-0 ">
+                  <div class="d-flex align-items-baseline">
+                    <div class="circle1">
+                      <img src="assets/avatar-7.jpg" alt="img profilo" class="imgProfilo1"> 
+                    </div>
+                    <p>Sobo Rikhan</p> 
+                  </div>
+                  <i class="bi bi-bookmark"></i>
+                </div>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+      </div>
+        
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+          
+    <!--Carosello di Card "Most Popular"-->
+
+    <h5 class="mt-5">Most Popular</h5>
+    <div id="carouselExample2" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+
+            <!--1 CARD-->     
+            <div class="col-6 col-md-3">
+              <div class="card">
+                <img src="assets/course-html.jpg" class="card-img-top" alt="img graph">
+                <div class="card-body d-flex flex-column justify-content-center pb-0" >
+                  <p class="card-text" style="font-weight: 600;">HTML Full Course - Build Website Tutorial</p>
+                  <div class="info">
+                    <i class="bi bi-clock"></i>  
+                    3h 16m
+                    <i class="bi bi-bar-chart-fill" style="color: #7550fe;"></i>  
+                    Beginner
+                  </div>
+                  <div class="info">
+                    <span class="gold">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star"></i>
+                      <i class="bi bi-star"></i>
+                      3.0
+                    </span> 
+                    (1,600)
+                  </div>
+                  <div class="info">
+                    <b>$550  </b><s style="font-size: 12px;">$700</s>
+                  </div>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-around align-items-baseline info m-0 ">
+                  <div class="d-flex align-items-baseline">
+                    <div class="circle1">
+                      <img src="assets/avatar-4.jpg" alt="img profilo" class="imgProfilo1"> 
+                    </div>
+                    <p>Miston Wilson</p> 
+                  </div>
+                  <i class="bi bi-bookmark"></i>
+                </div>
+              </div>
+            </div>
+
+            <!--2 CARD--> 
+            <div class="col-6 col-md-3">
+              <div class="card">
+                <img src="assets/course-javascript.jpg" class="card-img-top" alt="img graph">
+                <div class="card-body d-flex flex-column justify-content-center pb-0" >
+                  <p class="card-text" style="font-weight: 600;">A Complete Beginner's Guide to JavaScript</p>
+                  <div class="info">
+                    <i class="bi bi-clock"></i>  
+                    4h 10m
+                    <i class="bi bi-bar-chart-fill" style="color: #7550fe"></i>  
+                    Advance
+                  </div>
+                  <div class="info">
+                    <span class="gold">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      <i class="bi bi-star"></i>
+                      3.5
+                    </span> 
+                    (7,500)
+                  </div>
+                  <div class="info">
+                    <b>$700  </b><s style="font-size: 12px;">$850</s>
+                  </div>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-around align-items-baseline info m-0 ">
+                  <div class="d-flex align-items-baseline">
+                    <div class="circle1">
+                      <img src="assets/avatar-1.jpg" alt="img profilo" class="imgProfilo1"> 
+                    </div>
+                    <p>Jenny Wilson</p> 
+                  </div>
+                  <i class="bi bi-bookmark"></i>
+                </div>
+              </div>
+            </div>
+
+            <!--3 CARD--> 
+            <div class="col-6 col-md-3">
+              <div class="card">
+                <img src="assets/course-node.jpg" class="card-img-top" alt="img graph">
+                <div class="card-body d-flex flex-column justify-content-center pb-0" >
+                  <p class="card-text" style="font-weight: 600;">Beginning Node.js, Express & MongoDB Development</p>
+                  <div class="info">
+                    <i class="bi bi-clock"></i>  
+                    2h 00m
+                    <i class="bi bi-bar-chart-fill" style="color: #7550fe"></i>  
+                    Intermediate
+                  </div>
+                  <div class="info">
+                    <span class="gold">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star"></i>
+                      4.0
+                    </span> 
+                    (15,700)
+                  </div>
+                  <div class="info">
+                    <b>$800  </b><s style="font-size: 12px;">$950</s>
+                  </div>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-around align-items-baseline info m-0 ">
+                  <div class="d-flex align-items-baseline">
+                    <div class="circle1">
+                      <img src="assets/avatar-3.jpg" alt="img profilo" class="imgProfilo1"> 
+                    </div>
+                    <p>Sina Ray</p> 
+                  </div>
+                  <i class="bi bi-bookmark"></i>
+                </div>
+              </div>
+            </div>
+
+            <!--4 CARD--> 
+            <div class="col-6 col-md-3">
+              <div class="card">
+                <img src="assets/course-react.jpg" class="card-img-top" alt="img graph">
+                <div class="card-body d-flex flex-column justify-content-center pb-0" >
+                  <p class="card-text" style="font-weight: 600;">How to easily create a website with React</p>
+                  <div class="info">
+                    <i class="bi bi-clock"></i>  
+                    3h 55m
+                    <i class="bi bi-bar-chart-fill" style="color: #7550fe"></i>  
+                    Advance
+                  </div>
+                  <div class="info">
+                    <span class="gold">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      4.5
+                    </span> 
+                    (1,500)
+                  </div>
+                  <div class="info">
+                    <b>$600  </b><s style="font-size: 12px;">$750</s>
+                  </div>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-around align-items-baseline info m-0 ">
+                  <div class="d-flex align-items-baseline">
+                    <div class="circle1">
+                      <img src="assets/avatar-2.jpg" alt="img profilo" class="imgProfilo1"> 
+                    </div>
+                    <p>April Noms</p> 
+                  </div>
+                  <i class="bi bi-bookmark"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item"><div class="row">
+
+          <!--1 CARD-->     
+          <div class="col-6 col-md-3">
+            <div class="card">
+              <img src="assets/course-html.jpg" class="card-img-top" alt="img graph">
+              <div class="card-body d-flex flex-column justify-content-center pb-0" >
+                <p class="card-text" style="font-weight: 600;">HTML Full Course - Build Website Tutorial</p>
+                <div class="info">
+                  <i class="bi bi-clock"></i>  
+                  3h 16m
+                  <i class="bi bi-bar-chart-fill" style="color: #7550fe;"></i>  
+                  Beginner
+                </div>
+                <div class="info">
+                  <span class="gold">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                    3.0
+                  </span> 
+                  (1,600)
+                </div>
+                <div class="info">
+                  <b>$550  </b><s style="font-size: 12px;">$700</s>
+                </div>
+              </div>
+              <hr>
+              <div class="d-flex justify-content-around align-items-baseline info m-0 ">
+                <div class="d-flex align-items-baseline">
+                  <div class="circle1">
+                    <img src="assets/avatar-4.jpg" alt="img profilo" class="imgProfilo1"> 
+                  </div>
+                  <p>Miston Wilson</p> 
+                </div>
+                <i class="bi bi-bookmark"></i>
+              </div>
+            </div>
+          </div>
+
+          <!--2 CARD--> 
+          <div class="col-6 col-md-3">
+            <div class="card">
+              <img src="assets/course-javascript.jpg" class="card-img-top" alt="img graph">
+              <div class="card-body d-flex flex-column justify-content-center pb-0" >
+                <p class="card-text" style="font-weight: 600;">A Complete Beginner's Guide to JavaScript</p>
+                <div class="info">
+                  <i class="bi bi-clock"></i>  
+                  4h 10m
+                  <i class="bi bi-bar-chart-fill" style="color: #7550fe"></i>  
+                  Advance
+                </div>
+                <div class="info">
+                  <span class="gold">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <i class="bi bi-star"></i>
+                    3.5
+                  </span> 
+                  (7,500)
+                </div>
+                <div class="info">
+                  <b>$700  </b><s style="font-size: 12px;">$850</s>
+                </div>
+              </div>
+              <hr>
+              <div class="d-flex justify-content-around align-items-baseline info m-0 ">
+                <div class="d-flex align-items-baseline">
+                  <div class="circle1">
+                    <img src="assets/avatar-1.jpg" alt="img profilo" class="imgProfilo1"> 
+                  </div>
+                  <p>Jenny Wilson</p> 
+                </div>
+                <i class="bi bi-bookmark"></i>
+              </div>
+            </div>
+          </div>
+          
+          <!--3 CARD--> 
+          <div class="col-6 col-md-3">
+            <div class="card">
+              <img src="assets/course-node.jpg" class="card-img-top" alt="img graph">
+              <div class="card-body d-flex flex-column justify-content-center pb-0" >
+                <p class="card-text" style="font-weight: 600;">Beginning Node.js, Express & MongoDB Development</p>
+                <div class="info">
+                  <i class="bi bi-clock"></i>  
+                  2h 00m
+                  <i class="bi bi-bar-chart-fill" style="color: #7550fe"></i>  
+                  Intermediate
+                </div>
+                <div class="info">
+                  <span class="gold">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star"></i>
+                    4.0
+                  </span> 
+                  (15,700)
+                </div>
+                <div class="info">
+                  <b>$800  </b><s style="font-size: 12px;">$950</s>
+                </div>
+              </div>
+              <hr>
+              <div class="d-flex justify-content-around align-items-baseline info m-0 ">
+                <div class="d-flex align-items-baseline">
+                  <div class="circle1">
+                    <img src="assets/avatar-3.jpg" alt="img profilo" class="imgProfilo1"> 
+                  </div>
+                  <p>Sina Ray</p> 
+                </div>
+                <i class="bi bi-bookmark"></i>
+              </div>
+            </div>
+          </div>
+          
+          <!--4 CARD--> 
+          <div class="col-6 col-md-3">
+            <div class="card">
+              <img src="assets/course-react.jpg" class="card-img-top" alt="img graph">
+              <div class="card-body d-flex flex-column justify-content-center pb-0" >
+                <p class="card-text" style="font-weight: 600;">How to easily create a website with React</p>
+                <div class="info">
+                  <i class="bi bi-clock"></i>  
+                  3h 55m
+                  <i class="bi bi-bar-chart-fill" style="color: #7550fe"></i>  
+                  Advance
+                </div>
+                <div class="info">
+                  <span class="gold">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    4.5
+                  </span> 
+                  (1,500)
+                </div>
+                <div class="info">
+                  <b>$600  </b><s style="font-size: 12px;">$750</s>
+                </div>
+              </div>
+              <hr>
+              <div class="d-flex justify-content-around align-items-baseline info m-0 ">
+                <div class="d-flex align-items-baseline">
+                  <div class="circle1">
+                    <img src="assets/avatar-2.jpg" alt="img profilo" class="imgProfilo1"> 
+                  </div>
+                  <p>April Noms</p> 
+                </div>
+                <i class="bi bi-bookmark"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!--Carosello di Card "Trending"-->
+
+  <h5 class="mt-5">Trending</h5>
+    <div id="carouselExample3" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+
+            <!--1 CARD-->     
+            <div class="col-6 col-md-3">
+              <div class="card">
+                <img src="assets/course-gatsby.jpg" class="card-img-top" alt="img graph">
+                <div class="card-body d-flex flex-column justify-content-center pb-0" >
+                  <p class="card-text" style="font-weight: 600;">Revolutionize how you build the web</p>
+                  <div class="info">
+                    <i class="bi bi-clock"></i>  
+                    1h 46m
+                    <i class="bi bi-bar-chart-fill" style="color: #7550fe;"></i>  
+                    Intermediate
+                  </div>
+                  <div class="info">
+                    <span class="gold">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star"></i>
+                      <i class="bi bi-star"></i>
+                      <i class="bi bi-star"></i>
+                      2.0
+                    </span> 
+                    (16,500)
+                  </div>
+                  <div class="info">
+                    <b>$800  </b><s style="font-size: 12px;">$850</s>
+                  </div>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-around align-items-baseline info m-0 ">
+                  <div class="d-flex align-items-baseline">
+                    <div class="circle1">
+                      <img src="assets/avatar-6.jpg" alt="img profilo" class="imgProfilo1"> 
+                    </div>
+                    <p>Jenny Wilson</p> 
+                  </div>
+                  <i class="bi bi-bookmark"></i>
+                </div>
+              </div>
+            </div>
+
+            <!--2 CARD--> 
+            <div class="col-6 col-md-3">
+              <div class="card">
+                <img src="assets/course-html.jpg" class="card-img-top" alt="img graph">
+                <div class="card-body d-flex flex-column justify-content-center pb-0" >
+                  <p class="card-text" style="font-weight: 600;">HTML Full Course - Build Website Tutorial</p>
+                  <div class="info">
+                    <i class="bi bi-clock"></i>  
+                    3h 16m
+                    <i class="bi bi-bar-chart-fill" style="color: #7550fe;"></i>  
+                    Beginner
+                  </div>
+                  <div class="info">
+                    <span class="gold">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star"></i>
+                      <i class="bi bi-star"></i>
+                      3.0
+                    </span> 
+                    (1,600)
+                  </div>
+                  <div class="info">
+                    <b>$550  </b><s style="font-size: 12px;">$700</s>
+                  </div>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-around align-items-baseline info m-0 ">
+                  <div class="d-flex align-items-baseline">
+                    <div class="circle1">
+                      <img src="assets/avatar-4.jpg" alt="img profilo" class="imgProfilo1"> 
+                    </div>
+                    <p>Miston Wilson</p> 
+                  </div>
+                  <i class="bi bi-bookmark"></i>
+                </div>
+              </div>
+            </div>
+
+            <!--3 CARD--> 
+            <div class="col-6 col-md-3">
+              <div class="card">
+                <img src="assets/course-node.jpg" class="card-img-top" alt="img graph">
+                <div class="card-body d-flex flex-column justify-content-center pb-0" >
+                  <p class="card-text" style="font-weight: 600;">Beginning Node.js, Express & MongoDB Development</p>
+                  <div class="info">
+                    <i class="bi bi-clock"></i>  
+                    2h 00m
+                    <i class="bi bi-bar-chart-fill" style="color: #7550fe"></i>  
+                    Intermediate
+                  </div>
+                  <div class="info">
+                    <span class="gold">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star"></i>
+                      4.0
+                    </span> 
+                    (15,700)
+                  </div>
+                  <div class="info">
+                    <b>$800  </b><s style="font-size: 12px;">$950</s>
+                  </div>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-around align-items-baseline info m-0 ">
+                  <div class="d-flex align-items-baseline">
+                    <div class="circle1">
+                      <img src="assets/avatar-3.jpg" alt="img profilo" class="imgProfilo1"> 
+                    </div>
+                    <p>Sina Ray</p> 
+                  </div>
+                  <i class="bi bi-bookmark"></i>
+                </div>
+              </div>
+            </div>
+
+            <!--4 CARD--> 
+            <div class="col-6 col-md-3">
+              <div class="card">
+                <img src="assets/course-laravel.jpg" class="card-img-top" alt="img graph">
+                <div class="card-body d-flex flex-column justify-content-center pb-0" >
+                  <p class="card-text" style="font-weight: 600;">Laravel: The Ultimate Beginner's Guide to Learn</p>
+                  <div class="info">
+                    <i class="bi bi-clock"></i>  
+                    1h 00m
+                    <i class="bi bi-bar-chart-fill" style="color: #7550fe"></i>  
+                    Beginner
+                  </div>
+                  <div class="info">
+                    <span class="gold">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      4.5
+                    </span> 
+                    (2,500)
+                  </div>
+                  <div class="info">
+                    <b>$170  </b><s style="font-size: 12px;">$220</s>
+                  </div>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-around align-items-baseline info m-0 ">
+                  <div class="d-flex align-items-baseline">
+                    <div class="circle1">
+                      <img src="assets/avatar-7.jpg" alt="img profilo" class="imgProfilo1"> 
+                    </div>
+                    <p>Sobo Rikhan</p> 
+                  </div>
+                  <i class="bi bi-bookmark"></i>
+                </div>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row">
+
+            <!--1 CARD-->     
+            <div class="col-6 col-md-3">
+              <div class="card">
+                <img src="assets/course-gatsby.jpg" class="card-img-top" alt="img graph">
+                <div class="card-body d-flex flex-column justify-content-center pb-0" >
+                  <p class="card-text" style="font-weight: 600;">Revolutionize how you build the web</p>
+                  <div class="info">
+                    <i class="bi bi-clock"></i>  
+                    1h 46m
+                    <i class="bi bi-bar-chart-fill" style="color: #7550fe;"></i>  
+                    Intermediate
+                  </div>
+                  <div class="info">
+                    <span class="gold">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star"></i>
+                      <i class="bi bi-star"></i>
+                      <i class="bi bi-star"></i>
+                      2.0
+                    </span> 
+                    (16,500)
+                  </div>
+                  <div class="info">
+                    <b>$800  </b><s style="font-size: 12px;">$850</s>
+                  </div>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-around align-items-baseline info m-0 ">
+                  <div class="d-flex align-items-baseline">
+                    <div class="circle1">
+                      <img src="assets/avatar-6.jpg" alt="img profilo" class="imgProfilo1"> 
+                    </div>
+                    <p>Jenny Wilson</p> 
+                  </div>
+                  <i class="bi bi-bookmark"></i>
+                </div>
+              </div>
+            </div>
+
+            <!--2 CARD--> 
+            <div class="col-6 col-md-3">
+              <div class="card">
+                <img src="assets/course-html.jpg" class="card-img-top" alt="img graph">
+                <div class="card-body d-flex flex-column justify-content-center pb-0" >
+                  <p class="card-text" style="font-weight: 600;">HTML Full Course - Build Website Tutorial</p>
+                  <div class="info">
+                    <i class="bi bi-clock"></i>  
+                    3h 16m
+                    <i class="bi bi-bar-chart-fill" style="color: #7550fe;"></i>  
+                    Beginner
+                  </div>
+                  <div class="info">
+                    <span class="gold">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star"></i>
+                      <i class="bi bi-star"></i>
+                      3.0
+                    </span> 
+                    (1,600)
+                  </div>
+                  <div class="info">
+                    <b>$550  </b><s style="font-size: 12px;">$700</s>
+                  </div>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-around align-items-baseline info m-0 ">
+                  <div class="d-flex align-items-baseline">
+                    <div class="circle1">
+                      <img src="assets/avatar-4.jpg" alt="img profilo" class="imgProfilo1"> 
+                    </div>
+                    <p>Miston Wilson</p> 
+                  </div>
+                  <i class="bi bi-bookmark"></i>
+                </div>
+              </div>
+            </div>
+
+            <!--3 CARD--> 
+            <div class="col-6 col-md-3">
+              <div class="card">
+                <img src="assets/course-node.jpg" class="card-img-top" alt="img graph">
+                <div class="card-body d-flex flex-column justify-content-center pb-0" >
+                  <p class="card-text" style="font-weight: 600;">Beginning Node.js, Express & MongoDB Development</p>
+                  <div class="info">
+                    <i class="bi bi-clock"></i>  
+                    2h 00m
+                    <i class="bi bi-bar-chart-fill" style="color: #7550fe"></i>  
+                    Intermediate
+                  </div>
+                  <div class="info">
+                    <span class="gold">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star"></i>
+                      4.0
+                    </span> 
+                    (15,700)
+                  </div>
+                  <div class="info">
+                    <b>$800  </b><s style="font-size: 12px;">$950</s>
+                  </div>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-around align-items-baseline info m-0 ">
+                  <div class="d-flex align-items-baseline">
+                    <div class="circle1">
+                      <img src="assets/avatar-3.jpg" alt="img profilo" class="imgProfilo1"> 
+                    </div>
+                    <p>Sina Ray</p> 
+                  </div>
+                  <i class="bi bi-bookmark"></i>
+                </div>
+              </div>
+            </div>
+
+            <!--4 CARD--> 
+            <div class="col-6 col-md-3">
+              <div class="card">
+                <img src="assets/course-laravel.jpg" class="card-img-top" alt="img graph">
+                <div class="card-body d-flex flex-column justify-content-center pb-0" >
+                  <p class="card-text" style="font-weight: 600;">Laravel: The Ultimate Beginner's Guide to Learn</p>
+                  <div class="info">
+                    <i class="bi bi-clock"></i>  
+                    1h 00m
+                    <i class="bi bi-bar-chart-fill" style="color: #7550fe"></i>  
+                    Beginner
+                  </div>
+                  <div class="info">
+                    <span class="gold">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      4.5
+                    </span> 
+                    (2,500)
+                  </div>
+                  <div class="info">
+                    <b>$170  </b><s style="font-size: 12px;">$220</s>
+                  </div>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-around align-items-baseline info m-0 ">
+                  <div class="d-flex align-items-baseline">
+                    <div class="circle1">
+                      <img src="assets/avatar-7.jpg" alt="img profilo" class="imgProfilo1"> 
+                    </div>
+                    <p>Sobo Rikhan</p> 
+                  </div>
+                  <i class="bi bi-bookmark"></i>
+                </div>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+      </div>
+        
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample3" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </main>
+  
+
+
+
+  <!--Footer-->
+  <footer>
+    <div class="container d-flex align-items-center p-1 footer">
+      <div>
+        @ 2022 Geeks. All Rights Reserved.
+      </div>
+      <div class="d-flex gap-5 gap-md-4">
+        <a href="">Privacy</a>
+        <a href="">Term</a>
+        <a href="">Feedback</a>
+        <a href="">Support</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    
+</body>
+</html>
