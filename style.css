@@ -115,6 +115,18 @@ main {
     padding-bottom: 100px;
 }
 
+.card:hover {
+    width: 210px;
+    height: 360px;
+    box-shadow: 10px 10px 10px gray;
+    position: relative;
+
+}
+
+.carousel-inner {
+    overflow: visible;
+}
+
 .card-body {
     font-size: 13px;
 }
@@ -154,6 +166,10 @@ main {
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
     width: 10px;
+}
+
+.save:hover::before {
+    content: "\F199";
 }
 
 
